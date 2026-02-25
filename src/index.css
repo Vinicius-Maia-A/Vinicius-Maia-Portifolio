@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(rgba(5, 13, 5, 0.9), rgba(5, 13, 5, 0.9)), url(./assets/background.png);
+  background-size: 30%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
