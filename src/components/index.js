@@ -1,0 +1,11 @@
+export { default as Boot } from "./Boot";
+export { default as Topbar } from "./Topbar";
+export { default as Sidebar } from "./Sidebar";
+export { default as TermWindow } from "./TermWindow";
+export { default as HeroSection } from "./HeroSection";
+export { default as SkillsSection } from "./SkillsSection";
+export { default as ProjectModal } from "./ProjectModal";
+export { default as ProjectCard } from "./ProjectCard";
+export { default as ProjectsSection } from "./ProjectsSection";
+export { default as ExperienceSection } from "./ExperienceSection";
+export { default as ContactSection } from "./ContactSection";

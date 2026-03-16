@@ -1,12 +1,11 @@
-import { DATA } from '../../data/data';
-import TermWindow from '../../components/TermWindow';
-import ProjectCard from '../../components/ProjectCard';
-import ProjectModal from '../../components/ProjectModal';
-import { useState } from 'react';
+import { useState } from "react";
+import { DATA } from "../data/data";
+import TermWindow from "./TermWindow";
+import ProjectCard from "./ProjectCard";
+import ProjectModal from "./ProjectModal";
 
-export default function Projects() {
+export default function ProjectsSection() {
   const [selected, setSelected] = useState(null);
-
   return (
     <div id="s-projects">
       <TermWindow title="bash — ~/projects" promptCmd="git" promptArg="log --oneline" promptFlag="--featured">
@@ -17,7 +16,7 @@ export default function Projects() {
               <ProjectCard key={p.name} project={p} onClick={() => setSelected(p)} />
             ))}
           </div>
-          <div style={{ fontSize: 13, color: "var(--green-faint)", marginTop: 14 }}>
+          <div style={{ fontSize: 14, color: "var(--green-mid)", marginTop: 14 }}>
             &gt; Clique em um projeto para ver os serviços detalhados
           </div>
         </div>
