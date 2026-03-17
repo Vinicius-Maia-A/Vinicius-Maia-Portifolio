@@ -8,13 +8,16 @@ export default function SkillsSection() {
         <div className="output-block">
           <div className="sec-label">// STACK TECNOLÓGICO</div>
           <div className="skills-grid">
-            {DATA.skills.map((s) => (
-              <div key={s.name} className="skill-card">
-                <span className="skill-icon">{s.icon}</span>
-                <span className="skill-name">{s.name}</span>
-                <span className="skill-ver">{s.ver}</span>
-              </div>
-            ))}
+            {DATA.skills.map((s) => {
+              const Icon = s.icon;
+              return (
+                <div key={s.name} className="skill-card">
+                  <span className="skill-icon"><Icon /></span>
+                  <span className="skill-name">{s.name}</span>
+                  <span className="skill-ver">{s.ver}</span>
+                </div>
+              );
+            })}
           </div>
         </div>
       </TermWindow>

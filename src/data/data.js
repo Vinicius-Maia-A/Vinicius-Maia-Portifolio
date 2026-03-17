@@ -1,3 +1,66 @@
+import {
+  DiHtml5, DiCss3, DiJavascript, DiReact, DiNodejs, DiMongodb, DiJava
+} from "react-icons/di";
+import {
+  SiTypescript, SiMui, SiWix, SiWordpress, SiPrisma, SiExpress
+} from "react-icons/si";
+
+// CUIDANDO DE MAMÃES
+import cdm1 from "../assets/CDM PAGES/CDM ABOUT 1.png";
+import cdm2 from "../assets/CDM PAGES/CDM ABOUT 2.png";
+import cdm3 from "../assets/CDM PAGES/CDM APP 1.png";
+import cdm4 from "../assets/CDM PAGES/CDM APP 2.png";
+import cdm5 from "../assets/CDM PAGES/CDM APP 3.png";
+import cdm6 from "../assets/CDM PAGES/CDM APP 4.png";
+import cdm7 from "../assets/CDM PAGES/CHECKOUT PAGE 1.png";
+import cdm8 from "../assets/CDM PAGES/GUIA COPIA E COLA 1.png";
+import cdm9 from "../assets/CDM PAGES/PSMP 1.png";
+import cdm10 from "../assets/CDM PAGES/PSMP 2.png";
+import cdm11 from "../assets/CDM PAGES/SBSMP 1.png";
+import cdm12 from "../assets/CDM PAGES/SBSMP 2.png";
+import cdm13 from "../assets/CDM PAGES/SBSMP 3.png";
+import cdm14 from "../assets/CDM PAGES/SBSMP 4.png";
+
+// DRA. CHRISTIANE RIBEIRO
+import christiane1 from "../assets/CHRISTIANE RIBEIRO PAGES/CTDAH-1.png";
+import christiane2 from "../assets/CHRISTIANE RIBEIRO PAGES/CTDAH-2.png";
+import christiane3 from "../assets/CHRISTIANE RIBEIRO PAGES/CTDAH-3.png";
+import christiane4 from "../assets/CHRISTIANE RIBEIRO PAGES/CTDAH-4.png";
+import christiane5 from "../assets/CHRISTIANE RIBEIRO PAGES/CTDAH-5.png";
+import christiane6 from "../assets/CHRISTIANE RIBEIRO PAGES/CTDAH-6.png";
+
+// PSICOCARE
+import psicocare1 from "../assets/PSICOCARE PAGES/HOME 1.png";
+import psicocare2 from "../assets/PSICOCARE PAGES/HOME 2.png";
+import psicocare3 from "../assets/PSICOCARE PAGES/PPO 1.png";
+import psicocare4 from "../assets/PSICOCARE PAGES/PPO 2.png";
+import psicocare5 from "../assets/PSICOCARE PAGES/PPO 3.png";
+import psicocare6 from "../assets/PSICOCARE PAGES/CPPH 1.png";
+import psicocare7 from "../assets/PSICOCARE PAGES/CPPH 2.png";
+import psicocare8 from "../assets/PSICOCARE PAGES/CPPH 3.png";
+import psicocare9 from "../assets/PSICOCARE PAGES/IPH 1.png";
+import psicocare10 from "../assets/PSICOCARE PAGES/IPH 2.png";
+import psicocare11 from "../assets/PSICOCARE PAGES/CHECKOUT 1.png";
+import psicocare12 from "../assets/PSICOCARE PAGES/QUEM SOMOS.png";
+
+// LETÍCIA OLIVEIRA
+import leticia1 from "../assets/PSICOLETICIA PAGES/home-1.png";
+import leticia2 from "../assets/PSICOLETICIA PAGES/home-2.png";
+import leticia3 from "../assets/PSICOLETICIA PAGES/home-3.png";
+import leticia4 from "../assets/PSICOLETICIA PAGES/home-4.png";
+import leticia5 from "../assets/PSICOLETICIA PAGES/home-5.png";
+import leticia6 from "../assets/PSICOLETICIA PAGES/home-6.png";
+import leticia7 from "../assets/PSICOLETICIA PAGES/home-7.png";
+import leticia8 from "../assets/PSICOLETICIA PAGES/cvf-1.png";
+import leticia9 from "../assets/PSICOLETICIA PAGES/cvf-2.png";
+import leticia10 from "../assets/PSICOLETICIA PAGES/cvf-3.png";
+import leticia11 from "../assets/PSICOLETICIA PAGES/cvf-4.png";
+import leticia12 from "../assets/PSICOLETICIA PAGES/cvf-5.png";
+import leticia13 from "../assets/PSICOLETICIA PAGES/cvf-6.png";
+import leticia14 from "../assets/PSICOLETICIA PAGES/cvf-7.png";
+import leticia15 from "../assets/PSICOLETICIA PAGES/cvf-8.png";
+import leticia16 from "../assets/PSICOLETICIA PAGES/app-leticia.mp4";
+
 export const DATA = {
   name: "VINICIUS MAIA",
   role: "FULLSTACK DEVELOPER",
@@ -10,28 +73,30 @@ export const DATA = {
     whatsappLink: "https://wa.link/3u8w58",
   },
   stats: [
-    { val: "1+", label: "anos exp." },
+    { val: "2+", label: "anos exp." },
     { val: "4", label: "clientes" },
   ],
   skills: [
-    { icon: "🌐", name: "HTML5", ver: "Semântico" },
-    { icon: "🎨", name: "CSS3", ver: "Grid/Flex" },
-    { icon: "🟨", name: "JavaScript", ver: "ES2024" },
-    { icon: "⚛️", name: "React", ver: "v18.x" },
-    { icon: "🔷", name: "TypeScript", ver: "v5.x" },
-    { icon: "🔷", name: "Material UI", ver: "v5.x" },
-    { icon: "🟩", name: "Node.js", ver: "v20 LTS" },
-    { icon: "⚡", name: "Express", ver: "v4.x" },
-    { icon: "🍃", name: "MongoDB", ver: "v7.x" },
-    { icon: "🔗", name: "ORMs", ver: "Prisma/Seq." },
-    { icon: "🌀", name: "Wix", ver: "Studio" },
-    { icon: "📝", name: "WordPress", ver: "Elementor" },
+    { icon: DiHtml5, name: "HTML5", ver: "Semântico" },
+    { icon: DiCss3, name: "CSS3", ver: "Grid/Flex" },
+    { icon: DiJavascript, name: "JavaScript", ver: "ES2024" },
+    { icon: DiJava, name: "Java", ver: "v17+" },
+    { icon: DiReact, name: "React", ver: "v18.x" },
+    { icon: SiTypescript, name: "TypeScript", ver: "v5.x" },
+    { icon: SiMui, name: "Material UI", ver: "v5.x" },
+    { icon: DiNodejs, name: "Node.js", ver: "v20 LTS" },
+    { icon: SiExpress, name: "Express", ver: "v4.x" },
+    { icon: DiMongodb, name: "MongoDB", ver: "v7.x" },
+    { icon: SiPrisma, name: "ORMs", ver: "Prisma/Seq." },
+    { icon: SiWix, name: "Wix", ver: "Studio" },
+    { icon: SiWordpress, name: "WordPress", ver: "Elementor" },
   ],
   proficiency: [
     { label: "HTML/CSS", pct: 95 },
-    { label: "JavaScript", pct: 88 },
+    { label: "JavaScript", pct: 95 },
     { label: "React / TS", pct: 85 },
     { label: "Node / Express", pct: 80 },
+    { label: "Java", pct: 80 },
     { label: "MongoDB", pct: 75 },
     { label: "Wix / WP", pct: 90 },
   ],
@@ -52,20 +117,7 @@ export const DATA = {
         "Configuração do Email Marketing",
       ],
       images: [
-        "src/assets/CDM PAGES/CDM ABOUT 1.png",
-        "src/assets/CDM PAGES/CDM ABOUT 2.png",
-        "src/assets/CDM PAGES/CDM APP 1.png",
-        "src/assets/CDM PAGES/CDM APP 2.png",
-        "src/assets/CDM PAGES/CDM APP 3.png",
-        "src/assets/CDM PAGES/CDM APP 4.png",
-        "src/assets/CDM PAGES/CHECKOUT PAGE 1.png",
-        "src/assets/CDM PAGES/GUIA COPIA E COLA 1.png",
-        "src/assets/CDM PAGES/PSMP 1.png",
-        "src/assets/CDM PAGES/PSMP 2.png",
-        "src/assets/CDM PAGES/SBSMP 1.png",
-        "src/assets/CDM PAGES/SBSMP 2.png",
-        "src/assets/CDM PAGES/SBSMP 3.png",
-        "src/assets/CDM PAGES/SBSMP 4.png",
+        cdm1, cdm2, cdm3, cdm4, cdm5, cdm6, cdm7, cdm8, cdm9, cdm10, cdm11, cdm12, cdm13, cdm14
       ],
     },
     {
@@ -80,7 +132,9 @@ export const DATA = {
         "Criação de conteúdo para redes sociais",
         "Configuração do Email Marketing",
       ],
-      images: [],
+      images: [
+        christiane1, christiane2, christiane3, christiane4, christiane5, christiane6
+      ],
     },
     {
       name: "PSICOCARE",
@@ -94,18 +148,7 @@ export const DATA = {
         "Configuração do Email Marketing",
       ],
       images: [
-        "src/assets/PSICOCARE PAGES/HOME 1.png",
-        "src/assets/PSICOCARE PAGES/HOME 2.png",
-        "src/assets/PSICOCARE PAGES/PPO 1.png",
-        "src/assets/PSICOCARE PAGES/PPO 2.png",
-        "src/assets/PSICOCARE PAGES/PPO 3.png",
-        "src/assets/PSICOCARE PAGES/CPPH 1.png",
-        "src/assets/PSICOCARE PAGES/CPPH 2.png",
-        "src/assets/PSICOCARE PAGES/CPPH 3.png",
-        "src/assets/PSICOCARE PAGES/IPH 1.png",
-        "src/assets/PSICOCARE PAGES/IPH 2.png",
-        "src/assets/PSICOCARE PAGES/CHECKOUT 1.png",
-        "src/assets/PSICOCARE PAGES/QUEM SOMOS.png",
+        psicocare1, psicocare2, psicocare3, psicocare4, psicocare5, psicocare6, psicocare7, psicocare8, psicocare9, psicocare10, psicocare11, psicocare12
       ],
     },
     {
@@ -121,7 +164,9 @@ export const DATA = {
         "Configuração do Email Marketing",
         "Participação no desenvolvimento do App Mobile",
       ],
-      images: [],
+      images: [
+        leticia1, leticia2, leticia3, leticia4, leticia5, leticia6, leticia7, leticia8, leticia9, leticia10, leticia11, leticia12, leticia13, leticia14, leticia15, leticia16
+      ],
     },
   ],
   experience: [

@@ -21,14 +21,27 @@ export default function ImageCarousel({ images }) {
     setCurrentIndex(index);
   };
 
+  const isVideo = (src) => src.endsWith('.mp4') || src.endsWith('.webm') || src.endsWith('.ogg');
+
   return (
     <div className="carousel-container">
       <div className="carousel-track">
-        <img
-          src={images[currentIndex]}
-          alt={`Project screenshot ${currentIndex + 1}`}
-          className="carousel-image"
-        />
+        {isVideo(images[currentIndex]) ? (
+          <video
+            src={images[currentIndex]}
+            className="carousel-image"
+            controls
+            autoPlay
+            loop
+            muted
+          />
+        ) : (
+          <img
+            src={images[currentIndex]}
+            alt={`Project screenshot ${currentIndex + 1}`}
+            className="carousel-image"
+          />
+        )}
       </div>
 
       {images.length > 1 && (
